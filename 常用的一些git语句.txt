@@ -1,0 +1,5 @@
+--git remote
+
+--git pull <remote> main --allow-unrelated-histories
+
+--
