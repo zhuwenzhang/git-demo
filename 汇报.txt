@@ -10,7 +10,9 @@ Python 3.13.9 （用的深度学习本地的，配置到VScode 里面去了）
 Django 6.1 （刚下 pip install django）
 MySQL 9.1.0
 
-1.我需要先了解一下Django
+1.我需要先了解一下Django（我先看一下这个demo）
+
+（这个一体化我不了解，我先看看demo）
 
 分析一下：
 
@@ -22,5 +24,9 @@ MySQL 9.1.0
   栏目 CRUD     →  Category 增删改查
   文章 CRUD     →  Item 增删改查（含选栏目）
 
+数据库简单
+
 前端是 Templates + 表单；后端是 Views + ORM
 
+现在在看Django-demo（了解一下逻辑），我先了解一下~
+明天做一版~
