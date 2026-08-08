@@ -1,0 +1,26 @@
+自己做的这个一个医院的一个填表系统， 这个是 FastAPI + SQLAlchemy + Vue，偏「API 后端 + 前后端分离」）
+
+
+Django 更偏「一体式 Web 应用」
+
+环境： 
+vs code （我觉得轻量级没必要用vs 2026）（git version 2.55.0.windows.3）
+
+Python 3.13.9 （用的深度学习本地的，配置到VScode 里面去了）
+Django 6.1 （刚下 pip install django）
+MySQL 9.1.0
+
+1.我需要先了解一下Django
+
+分析一下：
+
+普通用户
+  浏览列表/详情  →  GET 文章列表、详情
+  三种查询      →  GET 带参数的搜索视图
+管理用户
+  登录          →  Auth
+  栏目 CRUD     →  Category 增删改查
+  文章 CRUD     →  Item 增删改查（含选栏目）
+
+前端是 Templates + 表单；后端是 Views + ORM
+
