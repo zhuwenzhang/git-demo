@@ -3,3 +3,7 @@
 --git pull <remote> main --allow-unrelated-histories
 
 --git clone https://github.com/zhuwenzhang/hospital-infectious-diseases.git 克隆库的一些语句
+
+--git config --global user.name "John Doe"
+
+--git config --global user.email johndoe@example.com
